@@ -20,11 +20,11 @@ We present a novel Gaussian mixture model, which explicitly models the dependenc
 # Citation
 If you use this code please cite the following paper:
 
-...
+```
 @article{hong2019KDE,
 title={Component-based Feature Saliency for Clustering},
 author={Hong, Xin and Li, Hailin and Miller, Paul and Zhou, Jianjiang and Li, Ling and Crookes, Danny and Lu, Yonggang and Li, Xuelong and Zhou, Huiyu},
 journal={IEEE Transactions on Knowledge and Data Engineering},
 note={doi: 10.1109/TKDE.2019.2936847}
 }
-...
+```
