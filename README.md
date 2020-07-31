@@ -29,7 +29,7 @@ X Hong, H Li, P Miller, J Zhou, L Li, D Crookes, Y Lu, X Li, H Zhou (2019) "Comp
 
 **BibTex**
 ```
-@article{hong2019KDE,
+@article{hong2019TKDE,
 title={Component-based Feature Saliency for Clustering},
 author={Hong, Xin and Li, Hailin and Miller, Paul and Zhou, Jianjiang and Li, Ling and Crookes, Danny and Lu, Yonggang and Li, Xuelong and Zhou, Huiyu},
 journal={IEEE Transactions on Knowledge and Data Engineering},
