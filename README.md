@@ -4,8 +4,13 @@ This repository contains the code for the method presented in the paper "Compone
 
 We present a novel Gaussian mixture model, which explicitly models the dependency of individual mixture components on each feature giving a new component-based feature saliency measure. Markov Chain Monte Carlo sampling is used to estimate the model and hidden variables.
 
+### Abstract
+Simultaneous feature selection and clustering is a major challenge in unsupervised learning. In particular, there has been significant research into saliency measures for features that result in good clustering. However, as datasets become larger and more complex, there is a need to adopt a finer-grained approach to saliency by measuring it in relation to a part of a model. Another issue is learning the feature saliency and advanced model parameters. We address the first by presenting a novel Gaussian mixture model, which explicitly models the dependency of individual mixture components on each feature giving a new component-based feature saliency measure. For the second, we use Markov Chain Monte Carlo sampling to estimate the model and hidden variables. Using a synthetic dataset, we demonstrate the superiority of our approach, in terms of clustering accuracy and model parameter estimation, over an approach using a model-based feature saliency with expectation maximisation. We performed an evaluation of our approach with six synthetic trajectory datasets. To demonstrate the generality of our approach, we applied it to a network traffic flow dataset for intrusion detection. Finally, we performed a comparison with state-of-the-art clustering techniques using three real-world trajectory datasets of vehicle traffic.
 
-## Code
+**keywords:** {Feature extraction;Clustering algorithms;Mathematical model;Numerical models;Mixture models;Bayes methods;Parameter estimation}<br/>
+**URL:** https://ieeexplore.ieee.org/document/8809812
+
+## Code Structure
 *kmGibbs.m* - main function file
 
 *runKMGibbs.m* - sample execution file (by using some synthetic trajectory datasets)
@@ -20,6 +25,10 @@ We present a novel Gaussian mixture model, which explicitly models the dependenc
 ## Citation
 If you use this code please cite the following paper:
 
+**Plain Text:** <br/>
+X Hong, H Li, P Miller, J Zhou, L Li, D Crookes, Y Lu, X Li, H Zhou, "Component-based Feature Saliency for Clustering," in IEEE Transactions on Knowledge and Data Engineering, doi: 10.1109/TKDE.2019.2936847. 
+
+**BibTex**
 ```
 @article{hong2019KDE,
 title={Component-based Feature Saliency for Clustering},
